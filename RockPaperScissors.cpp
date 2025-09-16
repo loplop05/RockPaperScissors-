@@ -110,7 +110,7 @@ void askAgain() {
             (playerScore == computerScore ? "IT'S A DRAW!" : "COMPUTER WON THE GAME!")) << "\n";
         cout << "====================================\n";
 
-        cout << "\nPlay again? (1 = Yes, 0 = No): ";
+        cout << "\nPlay again? (YES = 1, NO = 0): ";
         cin >> answer;
     }
 
@@ -122,3 +122,4 @@ int main() {
     askAgain();
     return 0;
 }
+
